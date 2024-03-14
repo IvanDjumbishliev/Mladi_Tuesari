@@ -1,0 +1,69 @@
+button{
+    background-color: hsl(211, 72%, 70%);
+    margin: 5px;
+    border-radius: 5px;
+    font-size:5em;
+    color:white;
+    text-align: center;
+    display: inline-block;
+}
+button:hover{
+    background-color: rgb(101, 101, 255);
+    cursor: pointer;
+}
+div.scroll div {
+    height: 390px;
+    width: 390px;
+    margin: 5px;
+    border: 2px solid black;
+}
+div{
+    display:inline-block;
+    height: 420px;
+    width: 810px;
+    margin-left: 10%;
+    margin-top: 22em;
+
+}
+div.scroll {
+    margin: 4px, 4px;
+    padding: 8px;
+    width: 850px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    background-color: hsl(211, 72%, 70%); 
+    overflow: hidden;
+    font-size:1.5em;
+
+}
+
+.navbar a{
+    margin: 0px;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.271);
+}
+
+.navbar li{
+    float: left;
+}
+
+video{
+    height: 300px;
+    
+}
